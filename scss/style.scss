@@ -1,0 +1,78 @@
+@import '_normalize';
+@import '_mixins';
+@import '_animations';
+@import '_variables';
+@import '_sections-one';
+@import '_sections-two';
+
+/* generals */
+body {
+  font-family: $font-primary;
+  font-weight: $font-medium;
+  color: $gray-brand-medium;
+  font-size: 12px;
+  background: #121214;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+  overflow-x: hidden;
+
+  @include breakpoint(tablet) {
+    font-size: 15px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  input[type='text'],
+  input[type='email'],
+  p {
+    &::selection {
+      background: $pink-brand !important;
+      color: #fff !important;
+    }
+  }
+}
+
+.main-sections {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.imgs-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.color-white {
+  color: white;
+}
+
+.btn-submit {
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: 50px;
+  border: none;
+  box-shadow: 2px 3px 6px black;
+  cursor: pointer;
+  margin-top: 10px;
+  background: $pink-brand;
+  transition: background 0.5s;
+  &:hover {
+    background: #cc00ff;
+    box-shadow: none;
+    transition: background 0.5s;
+  }
+}
+
+/* ::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::: 
+ */

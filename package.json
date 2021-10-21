@@ -1,0 +1,32 @@
+{
+  "name": "teste-bluemoon",
+  "version": "1.0.0",
+  "description": "job apply",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caio Guimarães",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.43.2"
+  },
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}

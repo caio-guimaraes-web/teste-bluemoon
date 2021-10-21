@@ -1,0 +1,55 @@
+/* ::::::::::::::::::::: colors
+:::::::::::::::::::::::::::::::::::: */
+
+$gray-brand-heavy: #2f3640;
+$gray-brand-medium: #4d5866;
+$gray-brand-light: #6c7c8c;
+$pink-brand: #d70b84;
+
+.gradient-brand-primary {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d70b84+0,401696+100 */
+  background: #d70b84; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #d70b84 0%,
+    #401696 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #d70b84 0%,
+    #401696 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #d70b84 0%,
+    #401696 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d70b84', endColorstr='#401696',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* ::::::::::::::::::::: layers
+:::::::::::::::::::::::::::::::::::: */
+$level1: 100; /* first-level */
+$level2: 200;
+$level3: 300;
+$level4: 400;
+$level5: 500;
+$level6: 600;
+$level7: 700;
+$level8: 800;
+$level9: 900;
+$level10: 1000; /* max-level */
+
+/* ::::::::::::::::::::: Typogrtaphy
+:::::::::::::::::::::::::::::::::::: */
+
+/* importing Montserrat e Georama from google */
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital@0;1&family=Montserrat:ital,wght@0,500;0,700;1,500&display=swap');
+
+/* font-families */
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Georama', serif;
+
+/* font-weights - using with montserrat family */
+$font-medium: 500;
+$font-bold: 700;
