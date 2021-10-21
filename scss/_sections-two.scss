@@ -13,7 +13,7 @@ section {
       padding: 50px 20px;
     }
     @include breakpoint(desktop-wide) {
-      padding: 150px 20px;
+      padding: 100px 20px;
     }
 
     .return-container,
@@ -52,7 +52,7 @@ section {
       p {
         line-height: 1.4;
         &.p-return {
-          font-size: 0.95em;
+          font-size: 0.85em;
         }
         &.author {
           font-style: italic;
